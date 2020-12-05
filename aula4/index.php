@@ -8,6 +8,7 @@
         body {
             font-family: Verdana, sans-serif;
         }
+
         h1 {
             color: blue;
         }
@@ -19,6 +20,7 @@
 </head>
 
 <body>
+    
     <h1>Aula 4</h1>
 
     <?php 
@@ -32,6 +34,7 @@
         <p>Meu nome é $nome, tenho $idade anos e amo $gosto.</p>
         ";
     ?>
+
 </body>
 
 </html>
