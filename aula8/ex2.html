@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - CursoemVideo.com</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2 {
+            color: green;
+        }
+        br {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aula 8 - Integração HTML5 + PHP</h1>
+
+    <h2>Exercicio 2</h2>
+    <p>Ler nome, ano de nascimento e sexo de uma pessoa, mostrando sua idade atual.</p>
+
+    <form method="POST" action="ex2.php">
+        <label for="nome">Nome:</label>        
+        <input type="text" name="nome">
+        <br>
+        
+        <label for="anoDeNascimento">Ano de nascimento:</label>        
+        <input type="number" name="anoDeNascimento">
+        <br>
+
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="sexo" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
+ 
