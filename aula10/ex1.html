@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Curso de PHP - CursoemVideo.com</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        h2 {
+            color: green;
+        }
+        br {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aula 10</h1>
+    <h2>Estrutura Condicional Switch</h2>
+
+    <h3>Exercicio 1</h3>
+    <p>Ler um número e qual operação realizar: dobro, cubo ou raiz quadrada.</p>
+
+    <form method="POST" action="ex1.php">
+        <label for="no">Número: </label>
+        <input type="number" name="no" autofocus required>
+        <br>
+
+        <p>Selecione uma operação: </p>
+
+        <input type="radio" name="op" value="dobro" required>
+        <label for="dobro">Dobro</label>
+
+        <input type="radio" name="op" value="cubo">
+        <label for="cubo">Cubo</label>
+
+        <input type="radio" name="op" value="raizQuadrada">
+        <label for="raizQuadrada">Raíz Quadrada</label>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+</html>
