@@ -45,6 +45,9 @@
 
         echo "<p>C++ (incremento em C) = $c</p>";
     ?>
+    <a href="../">
+        <input type="button" value="Voltar para o início">
+    </a>
 </body>
 
 </html>

@@ -20,10 +20,9 @@
 
 <body>
     <h1>Aula 5</h1>
+    <h2>Funções matemáticas</h2>
 
     <?php
-        echo "<h2>Funções matemáticas</h2>";
-
         $n1 = $_GET["a"];
         $n2 = $_GET["b"];
 

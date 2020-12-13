@@ -40,6 +40,9 @@
         */
 
     ?>
+    <a href="../">
+        <input type="button" value="Voltar para o início">
+    </a>
 </body>
 
 </html>

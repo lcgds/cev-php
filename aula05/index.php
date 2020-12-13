@@ -20,10 +20,9 @@
 
 <body>
     <h1>Aula 5</h1>
+    <h2>Operações aritméticas</h2>
 
     <?php
-        echo "<h2>Operações aritméticas</h2>";
-    
         $n1 = 24;
         $n2 = 12;
 
@@ -48,6 +47,11 @@
 
         echo "<p>Com o auxílio emergencial concedido pelo Governo, meu saldo será de R$" . $total . "</p>";
     ?>
+
+    <a href="../">
+        <input type="button" value="Voltar para o início">
+    </a>
+    
 </body>
 
 </html>

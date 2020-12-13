@@ -34,7 +34,9 @@
         <p>Meu nome é $nome, tenho $idade anos e amo $gosto.</p>
         ";
     ?>
-
+    <a href="../">
+        <input type="button" value="Voltar para o início">
+    </a>
 </body>
 
 </html>
