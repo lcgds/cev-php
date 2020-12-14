@@ -4,23 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Curso de PHP - CursoemVideo.com</title>
-    <style>
-        body {
-            font-family: Verdana, sans-serif;
-        }
-
-        h1 {
-            color: blue;
-        }
-
-        h2 {
-            color: green;
-        }
-
-        br {
-            margin-bottom: 25px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>

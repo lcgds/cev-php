@@ -8,21 +8,8 @@
     ?>
     <meta charset="UTF-8"/>
     <title>Curso de PHP - CursoemVideo.com</title>
+    <link rel="stylesheet" href="../style.css">
     <style>
-        body {
-            font-family: Verdana, sans-serif;
-        }
-
-        h1 {
-            color: blue;
-        }
-
-        h2 {
-            color: green;
-        }
-        br {
-            margin-bottom: 15px;
-        }
         .textoPersonalizado {
             font-size: <?php echo "$tamanho"?>; 
             color: <?php echo "$cor"?>;

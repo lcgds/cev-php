@@ -3,22 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Curso de PHP - CursoemVideo.com</title>
-    <style>
-        body {
-            font-family: Verdana, sans-serif;
-        }
-
-        h1 {
-            color: blue;
-        }
-
-        h2 {
-            color: green;
-        }
-        br {
-            margin-bottom: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <h1>Aula 8 - Integração HTML5 + PHP</h1>

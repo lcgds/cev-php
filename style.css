@@ -1,0 +1,20 @@
+* {
+    background-color: #101010;
+    color: white;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    color: #FF9800;
+}
+
+h2 {
+    color: #6CB789;
+}
+
+br {
+    margin-bottom: 20px;
+}
