@@ -8,20 +8,19 @@
 </head>
 
 <body>
-    <h1>Aula 11</h1>
-    <h2>Estrutura de Repetição While</h2>
+    <h1>Aula 14</h1>
+    <h2>Funções em PHP – Parte 1</h2>
 
-    <?php
-    
-        /*
-            $c = 1;
-            while($c <= 10) {
-                echo "$c";
-                $c++;
-            }
-        */
+    <pre>
+        function tal ($parametro) {
+            $comando = "Comando";
+        }
+    </pre>
 
-    ?>
+    <h3><a href="./ex1.php">Exercicio 1</a></h3>
+
+    <h3><a href="./ex2.php">Exercicio 2</a></h3>
+
     <a href="../">
         <input type="button" value="Voltar para o início">
     </a>
